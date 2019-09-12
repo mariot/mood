@@ -1,4 +1,4 @@
-use mood::db::{create_mood, establish_connection, query_mood};
+use backend::db::{create_mood, establish_connection, query_mood};
 use std::env;
 
 fn help() {
